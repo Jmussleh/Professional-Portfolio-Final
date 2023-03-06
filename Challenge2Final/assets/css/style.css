@@ -1,0 +1,33 @@
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: #40513b;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    background-color: #609966;
+  }
+
+  nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  nav a:hover {
+	background-color:#40513b;
+	color:#fff;
+    border: 2px solid #EDF1D6;
+}
+  
+.AboutMe {
+    background-color: #EDF1D6
+}
+
+p {
+    color: #40513b;
+    text-align: center;
+}
