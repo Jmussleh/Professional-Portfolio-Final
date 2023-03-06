@@ -75,3 +75,48 @@ main {
     border: 2px solid #bfbfbf;
     background-color: #fff;
   }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #609966;
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+  }
+  
+  .scale {
+    transform: scale(1.5, 1);
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav,
+    footer
+     {
+      flex-direction: column;
+    }
+    header {
+      background: #609966;
+    }
+    nav,
+    footer {
+      background-color: #40513b;
+    }
+    nav a:hover {
+        background-color:#609966;
+        color:#fff;
+        border: 2px solid #EDF1D6;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+.img {
+    border: 10px solid #609966;
+}
+  }
